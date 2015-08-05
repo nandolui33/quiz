@@ -1,8 +1,26 @@
+<select id="tema" name="quiz[tema]">
+  <option value="otro" <% setSelected('otro', quiz.tema) %>> Otro </option>
+  <option value="humanidades" <% setSelected('humanidades', quiz.tema) %>> Humanidades </option>
+  <option value="ocio" <% setSelected('ocio', quiz.tema) %>> Ocio </option>
+  <option value="ciencia" <% setSelected('ciencia', quiz.tema) %>> Ciencia </option>
+  <option value="tecnologia" <% setSelected('tecnologia', quiz.tema) %>> Tecnología </option>
+</select>
 <label for="preg" class="rem">Pregunta:</label>
 <input type="text" id="preg" name="quiz[pregunta]" value="<%= quiz.pregunta %>"/> <p>
 <label for="resp" class="rem">Respuesta:</label>
 <input type="text" id="resp" name="quiz[respuesta]" value="<%= quiz.respuesta %>"/> <p>
-<label for="image" class="rem">Imagen:</label>
-<!--input type="file" accept="image/*" id="image" name="image"/--><p>
+<label for="tema" class="rem">Tema:</label>
 <a href="/quizes"><button type="button">Cancelar</button></a>
-<input type="submit" value="Salvar">
+<input type="submit" value="Guardar">
+
+<% function setSelected(op, tema) {
+  if (getSelectedTema(op, tema)) { %>
+  selected
+<% } } %>
+
+<%
+function getSelectedTema(op, tema) {
+  if (tema) return op === tema;
+  else return op === 'otro'
+}
+%>

@@ -4,40 +4,35 @@
  * Module dependencies.
  */
 
-var debug = require('debug')('quiz');
 var app = require('../app');
-//var http = require('http');
+var debug = require('debug')('quiz:server');
+var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
-//var port = normalizePort(process.env.PORT || '3000');
-//app.set('port', port);
-app.set('port', process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
 
 /**
  * Create HTTP server.
  */
 
-//var server = http.createServer(app);
-var server = app.listen(app.get('port'), function(){
-  debug('Express server listening on port ' + server.address().port);
-});
+var server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
  */
 
-//server.listen(port);
-//server.on('error', onError);
-//server.on('listening', onListening);
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
 
 /**
  * Normalize a port into a number, string, or false.
  */
 
-/*
 function normalizePort(val) {
   var port = parseInt(val, 10);
 
@@ -53,13 +48,11 @@ function normalizePort(val) {
 
   return false;
 }
-*/
 
 /**
  * Event listener for HTTP server "error" event.
  */
 
-/*
 function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
@@ -83,13 +76,11 @@ function onError(error) {
       throw error;
   }
 }
-*/
 
 /**
  * Event listener for HTTP server "listening" event.
  */
 
-/*
 function onListening() {
   var addr = server.address();
   var bind = typeof addr === 'string'
@@ -97,4 +88,3 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 }
-*/
