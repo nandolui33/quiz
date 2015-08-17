@@ -1,13 +1,73 @@
-*                    {margin: 0; padding: 0; }
-body                 {font: 16px Georgia, serif;}
+*                    { margin: 0; padding: 0; }
+body                 { font: 16px Georgia, serif; }
 
-#page-wrap           {margin: 2% auto; color: white; }
-#page-wrap > .main   {border: 1px solid #999; padding: 1%;
-                      margin-bottom: 1px; color: black; }
+ 
+#page-wrap	{margin: 2% auto; color: white; }
+#page-wrap > .main {border: 1px solid #999; padding: 1%;
+					margin-bottom: 1px; color: black;}
 
-section > div        {padding: 20px; }
-header, nav, section {background: #eee; text-align: center; }
-footer               {background: #eee; text-align: center; }
-nav span             {margin: 0px 10px 0px 0px; }
+#page-wrap           { margin: 2% auto; color: white; }
+#page-wrap > .main   { border: 1px solid #999; padding: 1%; 
+	                   margin-bottom: 1px; color: black;}
 
-#ErrorMsgs           { color: #f61; font-size: smaler;}
+section > div        { padding: 20px; }
+
+section  {background: #eee; text-align: center;
+		overflow: scroll; overflow-x: hidden;}
+
+
+header, nav { background: #eee; text-align: center;}
+footer               { background: #eee; text-align: center;}
+nav span             { margin: 0px 10px 0px 0px;
+  					   width: 100%;
+  					   display: inline-block;}
+
+#ErrorMsgs           { color: #f61; font-size: smaler}
+.errror		{color: #f61; font-size: smaler}
+
+.right 				 {float: right;
+						border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 2px solid #f21843;
+
+
+}
+.quiz_img { height: 150px; float: left;}
+
+
+#boton {
+
+     background: #206bcb;
+
+    background-image: linear-gradient(bottom, #206ACB 0%, #3E9DE5 100%);
+
+    background-image: -o-linear-gradient(bottom, #206ACB 0%, #3E9DE5 100%);
+
+    background-image: -moz-linear-gradient(bottom, #206ACB 0%, #3E9DE5 100%);
+
+    background-image: -webkit-linear-gradient(bottom, #206ACB 0%, #3E9DE5 100%);
+
+    background-image: -ms-linear-gradient(bottom, #206ACB 0%, #3E9DE5 100%);
+
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #206ACB),color-stop(1, #3E9DE5));
+
+    background-clip: padding-box!important;
+
+    border-top: 1px solid #2a73a6!important;
+
+    border-right: 1px solid #165899!important;
+
+    border-bottom: 1px solid #07428f!important;
+
+    border-left: 1px solid #165899!important;
+
+    box-shadow: inset 0 1px 0 0 #62b1e9!important;
+
+    cursor: pointer!important;
+
+    text-shadow: 0 -1px 1px #1d62ab!important;
+
+    color: #FFF!important;
+
+}

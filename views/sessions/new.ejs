@@ -1,19 +1,29 @@
 <h2>Login</h2>
 
+	<% if (session.autoLogout==true && session.tiempo!="undefined") { %>
+		<br/><label class="error">Usuario inactivo</label>
+		<br/><label class="error">Ha estado más de dos minutos sin actividad. Vuelva a autenticarse</label>
+			<script type="text/javascript">
+			  alert("El periodo de inactividad ha sido superior a dos minutos. Por favor, vuelva a autenticarse.");
+			</script>
+	<% session.autoLogout = false %>
+<% } %>
+
 <form method='POST' action='/login'>
 
-  <div class="field">
-    <label for="login">Login:</label><br />
-    <input type="text" id="login" name="login" size="30" />
-  </div>
+	<div class="field">
+		<label for="login">Login:</label><br />
+		<input type="text" id="login" name="login" size="30" />
+	</div>
 
-  <div class="field">
-    <label for="password">Password:</label><br />
-    <input type="password" id="password" name="password" size="30" />
-  </div>
+	<div class="field">
+		<label for="password">Password:</label><br />
+		<input type="password" id="password" name="password" size="30" />
+	</div>
 
-  <div class="actions">
-    <input name="commit" type="submit" value="Login" />
-  </div>
+	<div class="actions">
+		<input name="commit" type="submit" value="login" />
+	</div>
 
 </form>
+

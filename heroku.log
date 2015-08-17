@@ -1,0 +1,101 @@
+2015-08-03T09:01:25.980170+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=e6c378c5-8732-40a1-bfa7-29772a378a37 fwd="85.56.235.188" dyno=web.1 connect=1ms service=4ms status=304 bytes=237
+2015-08-03T09:01:25.977017+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.515 ms - -[0m
+2015-08-03T09:01:26.003889+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m1.059 ms - -[0m
+2015-08-03T09:01:25.996697+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m1.161 ms - -[0m
+2015-08-03T09:01:26.007416+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=17931552-6b01-4d0e-a593-a68003e6606a fwd="85.56.235.188" dyno=web.1 connect=6ms service=6ms status=304 bytes=237
+2015-08-03T09:01:36.893082+00:00 app[web.1]: [0mGET / [36m304 [0m2.176 ms - -[0m
+2015-08-03T09:01:36.894811+00:00 heroku[router]: at=info method=GET path="/" host=quiz-jjblancob.herokuapp.com request_id=96b13e08-a824-470d-bd21-cf777c1b220b fwd="85.56.235.188" dyno=web.1 connect=2ms service=6ms status=304 bytes=146
+2015-08-03T09:01:37.486348+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=17a2b4fe-605f-4276-a79f-d6a9cf165d69 fwd="85.56.235.188" dyno=web.1 connect=2ms service=4ms status=304 bytes=236
+2015-08-03T09:01:37.476077+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=d0fe7849-c73a-4c29-b60b-ec9ab886cf7a fwd="85.56.235.188" dyno=web.1 connect=3ms service=4ms status=304 bytes=237
+2015-08-03T09:01:37.464123+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=52011d10-aec6-42f7-ac49-cd04468dcaaa fwd="85.56.235.188" dyno=web.1 connect=1ms service=5ms status=304 bytes=237
+2015-08-03T09:01:37.463849+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.972 ms - -[0m
+2015-08-03T09:01:37.480406+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m0.689 ms - -[0m
+2015-08-03T09:01:37.475882+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m0.929 ms - -[0m
+2015-08-03T09:06:11.803557+00:00 heroku[router]: at=info method=GET path="/" host=quiz-jjblancob.herokuapp.com request_id=998746cf-b9de-4fad-9d63-fc72c50b11e5 fwd="85.56.235.188" dyno=web.1 connect=2ms service=8ms status=304 bytes=146
+2015-08-03T09:06:11.800704+00:00 app[web.1]: [0mGET / [36m304 [0m4.144 ms - -[0m
+2015-08-03T09:06:12.307687+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=8a923dad-c709-4245-9eed-a11b227e8f93 fwd="85.56.235.188" dyno=web.1 connect=1ms service=5ms status=304 bytes=237
+2015-08-03T09:06:12.315650+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=94349cd1-e486-4e90-8f0b-2299c76036f6 fwd="85.56.235.188" dyno=web.1 connect=3ms service=3ms status=304 bytes=237
+2015-08-03T09:06:12.336668+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=02d3bfaa-0cbe-4a47-8213-b277d57fbe00 fwd="85.56.235.188" dyno=web.1 connect=1ms service=15ms status=304 bytes=236
+2015-08-03T09:06:12.308445+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m1.021 ms - -[0m
+2015-08-03T09:06:12.321136+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m1.111 ms - -[0m
+2015-08-03T09:06:12.314853+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m0.706 ms - -[0m
+2015-08-03T09:06:16.007278+00:00 heroku[router]: at=info method=GET path="/quizes/question" host=quiz-jjblancob.herokuapp.com request_id=d67f3559-1e46-4239-a16e-fb109fbf5382 fwd="85.56.235.188" dyno=web.1 connect=1ms service=5ms status=304 bytes=146
+2015-08-03T09:06:16.006363+00:00 app[web.1]: [0mGET /quizes/question [36m304 [0m3.181 ms - -[0m
+2015-08-03T09:06:16.551899+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=8022f8a5-d863-4441-aedd-296be654f867 fwd="85.56.235.188" dyno=web.1 connect=1ms service=4ms status=304 bytes=237
+2015-08-03T09:06:16.546711+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=3ac58b44-0763-470f-b4ca-b5819e068f21 fwd="85.56.235.188" dyno=web.1 connect=1ms service=4ms status=304 bytes=237
+2015-08-03T09:06:16.562457+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=41055249-86cd-42db-82df-717c7367e13e fwd="85.56.235.188" dyno=web.1 connect=1ms service=4ms status=304 bytes=236
+2015-08-03T09:06:16.545348+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.623 ms - -[0m
+2015-08-03T09:06:16.561999+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m1.173 ms - -[0m
+2015-08-03T09:06:16.551734+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m1.055 ms - -[0m
+2015-08-03T09:06:40.775717+00:00 heroku[web.1]: State changed from up to starting
+2015-08-03T09:06:42.987852+00:00 heroku[web.1]: Starting process with command `node ./bin/www`
+2015-08-03T09:06:43.702631+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-08-03T09:06:44.380909+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-08-03T09:06:44.380935+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-08-03T09:06:45.391992+00:00 heroku[web.1]: State changed from starting to up
+2015-08-03T09:06:45.271980+00:00 heroku[web.1]: Process exited with status 143
+2015-08-03T09:06:53.866213+00:00 heroku[router]: at=info method=GET path="/" host=quiz-jjblancob.herokuapp.com request_id=270c5932-1f89-48ef-89c3-98e3aaf75c2f fwd="85.56.235.188" dyno=web.1 connect=2ms service=38ms status=304 bytes=146
+2015-08-03T09:06:53.869273+00:00 app[web.1]: [0mGET / [36m304 [0m25.732 ms - -[0m
+2015-08-03T09:06:54.436037+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=90ee7772-9c15-4ed4-9125-ae0b9601e85d fwd="85.56.235.188" dyno=web.1 connect=0ms service=9ms status=304 bytes=237
+2015-08-03T09:06:54.452615+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=521f9f5a-74c7-4056-bd6f-6f5aef662c28 fwd="85.56.235.188" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2015-08-03T09:06:54.438099+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m4.346 ms - -[0m
+2015-08-03T09:06:54.460712+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m1.334 ms - -[0m
+2015-08-03T09:06:54.461904+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=57cd1b63-1b1d-4eb9-a8d4-24e0aa945175 fwd="85.56.235.188" dyno=web.1 connect=1ms service=3ms status=304 bytes=236
+2015-08-03T09:06:54.452066+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m1.400 ms - -[0m
+2015-08-03T09:06:56.337879+00:00 heroku[router]: at=info method=GET path="/quizes/question" host=quiz-jjblancob.herokuapp.com request_id=cc6cd329-a175-40a2-8e47-d8676568d7dc fwd="85.56.235.188" dyno=web.1 connect=1ms service=6ms status=304 bytes=146
+2015-08-03T09:06:56.337059+00:00 app[web.1]: [0mGET /quizes/question [36m304 [0m5.035 ms - -[0m
+2015-08-03T09:06:56.866591+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=b7234d0e-b8cb-4e1e-a7ac-65cdb27eb26a fwd="85.56.235.188" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2015-08-03T09:06:56.853495+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=79d29597-9e6b-464f-9412-74e495206a71 fwd="85.56.235.188" dyno=web.1 connect=1ms service=5ms status=304 bytes=237
+2015-08-03T09:06:56.878899+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=41a2c4b4-01a3-42b8-89ba-521f87f0236e fwd="85.56.235.188" dyno=web.1 connect=0ms service=12ms status=304 bytes=236
+2015-08-03T09:06:56.852181+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m2.073 ms - -[0m
+2015-08-03T09:06:56.869820+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m0.371 ms - -[0m
+2015-08-03T09:06:56.865138+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m0.608 ms - -[0m
+2015-08-03T09:26:04.162098+00:00 heroku[router]: at=info method=GET path="/" host=quiz-jjblancob.herokuapp.com request_id=3d1446d1-bc55-413c-b480-674822c223a5 fwd="85.56.235.188" dyno=web.1 connect=1ms service=17ms status=304 bytes=146
+2015-08-03T09:26:04.148045+00:00 app[web.1]: [0mGET / [36m304 [0m2.731 ms - -[0m
+2015-08-03T09:26:04.667228+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=7d753248-0213-44c1-8104-345592508f3c fwd="85.56.235.188" dyno=web.1 connect=1ms service=3ms status=304 bytes=236
+2015-08-03T09:26:04.652787+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=c3c352bd-5ff9-46dd-86e7-a134a865e8b5 fwd="85.56.235.188" dyno=web.1 connect=2ms service=3ms status=304 bytes=237
+2015-08-03T09:26:04.671712+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=a55a3d0f-d588-4d82-a9fc-d29ed13a89e6 fwd="85.56.235.188" dyno=web.1 connect=2ms service=11ms status=304 bytes=237
+2015-08-03T09:26:04.653874+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.455 ms - -[0m
+2015-08-03T09:26:04.666410+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m0.677 ms - -[0m
+2015-08-03T09:26:04.658915+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m0.879 ms - -[0m
+2015-08-03T09:26:06.572660+00:00 heroku[router]: at=info method=GET path="/quizes/question" host=quiz-jjblancob.herokuapp.com request_id=47749ebc-4190-45f5-bf48-43989f977a57 fwd="85.56.235.188" dyno=web.1 connect=2ms service=15ms status=304 bytes=146
+2015-08-03T09:26:06.557571+00:00 app[web.1]: [0mGET /quizes/question [36m304 [0m2.487 ms - -[0m
+2015-08-03T09:26:07.129985+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=9441cb70-58a8-4c9e-8f0c-3c7b97643a38 fwd="85.56.235.188" dyno=web.1 connect=1ms service=5ms status=304 bytes=237
+2015-08-03T09:26:07.145920+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=d8865f77-a2bb-4c83-bf08-1bef378d6336 fwd="85.56.235.188" dyno=web.1 connect=2ms service=5ms status=304 bytes=237
+2015-08-03T09:26:07.146265+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=5b1e317d-c802-470e-884e-5be464423a0e fwd="85.56.235.188" dyno=web.1 connect=4ms service=3ms status=304 bytes=236
+2015-08-03T09:26:07.125995+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.433 ms - -[0m
+2015-08-03T09:26:07.147634+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m0.919 ms - -[0m
+2015-08-03T09:26:07.144645+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m1.059 ms - -[0m
+2015-08-03T09:30:59.160849+00:00 heroku[api]: Set NODE_ENV config vars by jj.blanco.bautista@gmail.com
+2015-08-03T09:30:59.160849+00:00 heroku[api]: Release v6 created by jj.blanco.bautista@gmail.com
+2015-08-03T09:30:59.316317+00:00 heroku[web.1]: State changed from up to starting
+2015-08-03T09:31:01.267932+00:00 heroku[web.1]: Starting process with command `node ./bin/www`
+2015-08-03T09:31:02.565183+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-08-03T09:31:03.114189+00:00 app[web.1]: Detected 512 MB available memory, 512 MB limit per process (WEB_MEMORY)
+2015-08-03T09:31:03.114223+00:00 app[web.1]: Recommending WEB_CONCURRENCY=1
+2015-08-03T09:31:04.224261+00:00 heroku[web.1]: Process exited with status 143
+2015-08-03T09:31:04.967881+00:00 heroku[web.1]: State changed from starting to up
+2015-08-03T09:36:49.919814+00:00 heroku[router]: at=info method=GET path="/" host=quiz-jjblancob.herokuapp.com request_id=e06525b5-ce50-402a-bd37-998a432de22c fwd="85.56.235.188" dyno=web.1 connect=1ms service=480ms status=304 bytes=146
+2015-08-03T09:36:49.936438+00:00 app[web.1]: [0mGET / [36m304 [0m379.681 ms - -[0m
+2015-08-03T09:36:50.652179+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=17ef9973-a086-464d-ad9c-badbf8dba558 fwd="85.56.235.188" dyno=web.1 connect=2ms service=92ms status=304 bytes=236
+2015-08-03T09:36:50.617596+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=ff74c9d9-52c8-4a9b-ad00-3e72eb0a1bc2 fwd="85.56.235.188" dyno=web.1 connect=1ms service=73ms status=304 bytes=237
+2015-08-03T09:36:50.634810+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=4300239f-8413-4055-83dc-a5480122f337 fwd="85.56.235.188" dyno=web.1 connect=11ms service=89ms status=304 bytes=237
+2015-08-03T09:36:50.612540+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m28.839 ms - -[0m
+2015-08-03T09:36:50.651004+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m19.001 ms - -[0m
+2015-08-03T09:36:50.630251+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m53.355 ms - -[0m
+2015-08-03T09:36:52.755120+00:00 heroku[router]: at=info method=GET path="/quizes/question" host=quiz-jjblancob.herokuapp.com request_id=b6a5da5d-facc-48cb-96e0-544a4021569e fwd="85.56.235.188" dyno=web.1 connect=1ms service=9ms status=304 bytes=146
+2015-08-03T09:36:52.754124+00:00 app[web.1]: [0mGET /quizes/question [36m304 [0m5.277 ms - -[0m
+2015-08-03T09:36:53.305644+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=79edea5a-04b9-4054-ad87-1590e3bb6de5 fwd="85.56.235.188" dyno=web.1 connect=1ms service=5ms status=304 bytes=237
+2015-08-03T09:36:53.297395+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=c9870d6c-cde5-4ac5-be0d-fca44a276653 fwd="85.56.235.188" dyno=web.1 connect=1ms service=12ms status=304 bytes=237
+2015-08-03T09:36:53.311911+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=7a78a0ac-4d83-425b-a950-d9be9eceafc1 fwd="85.56.235.188" dyno=web.1 connect=4ms service=10ms status=304 bytes=236
+2015-08-03T09:36:53.290429+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m2.580 ms - -[0m
+2015-08-03T09:36:53.308011+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m6.891 ms - -[0m
+2015-08-03T09:36:53.302196+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m1.114 ms - -[0m
+2015-08-03T09:36:55.805219+00:00 heroku[router]: at=info method=GET path="/" host=quiz-jjblancob.herokuapp.com request_id=c3c7cd93-3488-43f3-9394-317d51e604b5 fwd="85.56.235.188" dyno=web.1 connect=2ms service=21ms status=304 bytes=146
+2015-08-03T09:36:55.790918+00:00 app[web.1]: [0mGET / [36m304 [0m7.896 ms - -[0m
+2015-08-03T09:36:56.313101+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=quiz-jjblancob.herokuapp.com request_id=745e8b73-31d3-4ae5-81bf-e022fd4b6524 fwd="85.56.235.188" dyno=web.1 connect=12ms service=4ms status=304 bytes=237
+2015-08-03T09:36:56.315505+00:00 heroku[router]: at=info method=GET path="/stylesheets/smartphone.css" host=quiz-jjblancob.herokuapp.com request_id=3bbd5595-4fde-47ac-bb88-e0e38b460614 fwd="85.56.235.188" dyno=web.1 connect=1ms service=3ms status=304 bytes=236
+2015-08-03T09:36:56.310802+00:00 heroku[router]: at=info method=GET path="/stylesheets/wide.css" host=quiz-jjblancob.herokuapp.com request_id=d781745d-cf73-48a1-b844-8cd4f9bec9ae fwd="85.56.235.188" dyno=web.1 connect=1ms service=2ms status=304 bytes=237
+2015-08-03T09:36:56.306129+00:00 app[web.1]: [0mGET /stylesheets/wide.css [36m304 [0m0.441 ms - -[0m
+2015-08-03T09:36:56.314595+00:00 app[web.1]: [0mGET /stylesheets/smartphone.css [36m304 [0m0.536 ms - -[0m
+2015-08-03T09:36:56.309160+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m0.500 ms - -[0m
